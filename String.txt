@@ -1,0 +1,36 @@
+Common methods:
+1)public int length()
+2)public boolean isEmpty()
+3)public char charAt(int index)
+4)public boolean equals(Object obj)
+5)public int compareTo(String anotherstr)
+6)public boolean equalsIgnoreCase(String anotherString)
+7)public int compareToIgnoreCase(String str)
+8)public boolean startsWith(String prefix,int toffset)
+9)public boolean startsWith(String prefix)
+10)public boolean endsWith(String suffix)
+11)public int hashCode() : calculated as s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]
+12)public int indexOf(int ch) : index within this string of the first occurrence of the specified character ; if not found returns -1
+13)public int indexOf(int ch,int fromIndex)
+14)public int lastIndexOf(int ch)
+15)public int lastIndexOf(int ch,int fromIndex) :  searching backward starting at the specified index
+16)public int indexOf(String str): Returns the index within this string of the first occurrence of the specified substring.
+17)public int indexOf(String str,int fromIndex)
+18)public int lastIndexOf(String str)
+19)public String substring(int beginIndex)
+20)public CharSequence subSequence(int beginIndex,int endIndex)
+21)public String concat(String str) :has O(n^2) complexity, StringBuilder's append method has O(n)c omplexity
+22)public String replace(char oldChar,char newChar)
+23)public boolean contains(CharSequence s)
+24)public String replaceFirst(String regex,String replacement)
+25)public String replaceAll(String regex,String replacement)
+26)public String replace(CharSequence target,CharSequence replacement)
+27)public String[] split(String regex)
+28)public String toLowerCase()
+29)public String trim()
+30)public char[] toCharArray()
+31)public static String valueOf(Object obj): Returns the string representation of the Object argument.
+32)public static String valueOf(char[] data)
+33)public static String valueOf(boolean b)
+34)public static String valueOf(char c)
+35)public static String valueOf(int i)
